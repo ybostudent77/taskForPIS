@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>example.adapter.pattern.Main</OriginalElement>
+  <nodes>
+    <node x="136.71832718942866" y="53.94426514961254">example.adapter.pattern.AwkwardArcher</node>
+    <node x="136.7183271894287" y="208.61588691486324">example.adapter.pattern.UnitAdapter</node>
+    <node x="403.92665714686973" y="76.94426514961252">example.adapter.pattern.Knight</node>
+    <node x="136.71832718942863" y="-36.59746840708352">example.adapter.pattern.Archer</node>
+    <node x="403.42665714686973" y="-36.59746840708352">example.adapter.pattern.Main</node>
+    <node x="429.23817984056313" y="203.65590692612713">example.adapter.pattern.RoyalKnight</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="example.adapter.pattern.AwkwardArcher" target="example.adapter.pattern.Archer" relationship="REALIZATION">
+      <point x="3.86396611212092E-4" y="49.00031328683764" />
+      <point x="231.21871358603988" y="185.4722892182251" />
+      <point x="59.0557225433526" y="185.4722892182251" />
+      <point x="59.0557225433526" y="-10.097450867052034" />
+      <point x="-94.49955262295461" y="1.754003148413119E-5" />
+    </edge>
+    <edge source="example.adapter.pattern.UnitAdapter" target="example.adapter.pattern.Archer" relationship="REALIZATION">
+      <point x="-94.49957290167163" y="10.703958942554863" />
+      <point x="59.92662813102123" y="257.3198458574181" />
+      <point x="59.92662813102123" y="-10.097450867052034" />
+      <point x="-94.49955262295461" y="1.754003148413119E-5" />
+    </edge>
+    <edge source="example.adapter.pattern.RoyalKnight" target="example.adapter.pattern.Knight" relationship="REALIZATION">
+      <point x="-25.311522693693405" y="-49.0" />
+      <point x="0.0" y="37.500000000000014" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1482300884955752" showDependencies="false" x="323.13102119460495" y="169.99999999999997" />
+  <SelectedNodes>
+    <node>example.adapter.pattern.RoyalKnight</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
